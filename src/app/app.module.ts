@@ -8,11 +8,13 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { IOSInstallComponent } from './i-osinstall/i-osinstall.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    IOSInstallComponent
   ],
   imports: [
     BrowserModule,

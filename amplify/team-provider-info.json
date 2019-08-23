@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "ngamplifymaterialpwa-dev-20190823120512-authRole",
+            "UnauthRoleArn": "arn:aws:iam::854875202353:role/ngamplifymaterialpwa-dev-20190823120512-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::854875202353:role/ngamplifymaterialpwa-dev-20190823120512-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "ngamplifymaterialpwa-dev-20190823120512-deployment",
+            "UnauthRoleName": "ngamplifymaterialpwa-dev-20190823120512-unauthRole",
+            "StackName": "ngamplifymaterialpwa-dev-20190823120512",
+            "StackId": "arn:aws:cloudformation:us-west-2:854875202353:stack/ngamplifymaterialpwa-dev-20190823120512/ef44c4a0-c5d8-11e9-bb66-0660270eccea"
+        }
+    }
+}

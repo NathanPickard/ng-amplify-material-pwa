@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatSnackBarRef } from '@angular/material';
 
 @Component({
   selector: 'app-i-osinstall',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IOSInstallComponent implements OnInit {
 
-  constructor() { }
+  constructor(private snackBarRef: MatSnackBarRef<IOSInstallComponent>) { }
 
   ngOnInit() {
+
+  }
+
+  close() {
+    this.snackBarRef.dismiss();
   }
 
 }

@@ -24,6 +24,7 @@ import { IOSInstallComponent } from './i-osinstall/i-osinstall.component';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [IOSInstallComponent]
 })
 export class AppModule { }
